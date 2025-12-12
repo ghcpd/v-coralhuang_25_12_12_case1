@@ -1,0 +1,4 @@
+2025-03-01T10:21:30 INFO User Alice logged in from 1.2.3.4
+2025-03-01T10:22:00 INFO User Bob logged in from 5.6.7.8
+2025-03-01T10:23:10 INFO User Alice viewed page /home
+2025-03-01T10:25:00 INFO User Bob logged out
