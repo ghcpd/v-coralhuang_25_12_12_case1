@@ -1,0 +1,40 @@
+# ** New Enhancement Scenario: Log Viewer Enhancement**
+
+## **Context**
+
+You are a software engineer inheriting a very primitive internal tool called **`log_viewer.py`**, which implements:
+
+```python
+def search_logs(path, keyword):
+    # returns a list of matching raw lines
+```
+
+It works, but the output is unstructured, hard to read, and the function is not extensible.
+
+Your task is to **enhance the tool** by improving output clarity, adding multiple formatting modes, and modularizing the architecture.
+
+This is an **Enhancement** task — the tool works, but it can be significantly improved.
+
+---
+
+# **1. Current Problems**
+
+### **1.1 Output lacks structure**
+
+* Shows raw text only
+* No context lines, no indicators, no summaries
+* Hard to interpret
+
+### **1.2 No extensibility**
+
+* No way to add pretty-printing, JSON mode, filters
+* Logic is tightly coupled and non-modular
+
+### **1.3 No summary information**
+
+* User doesn’t know how many lines matched
+* No structured metadata
+
+---
+
+# **2. Enhancement Requirements**
