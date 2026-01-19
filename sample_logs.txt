@@ -1,0 +1,17 @@
+2025-03-01T10:21:30 INFO [u1] Alice logged in from 1.2.3.4
+2025-03-01T10:22:00 INFO [u2] Bob logged in from 5.6.7.8
+2025-03-01T10:23:10 DEBUG [u1] Alice viewed page /home
+2025-03-01T10:24:15 INFO [u1] Alice accessed API /users
+2025-03-01T10:25:00 INFO [u2] Bob logged out
+2025-03-01T10:26:45 ERROR [u3] Charlie login failed: invalid credentials
+2025-03-01T10:27:30 WARNING [u1] Alice attempted unauthorized access
+2025-03-01T10:28:00 INFO [u2] Bob viewed page /settings
+2025-03-01T10:29:15 DEBUG [u1] Alice clicked button on /dashboard
+2025-03-01T10:30:00 INFO [u4] Diana logged in from 9.10.11.12
+2025-03-01T10:31:20 ERROR [u4] Diana encountered error: database timeout
+2025-03-01T10:32:45 INFO [u1] Alice downloaded report
+2025-03-01T10:33:10 INFO [u2] Bob updated profile
+2025-03-01T10:34:25 DEBUG [u4] Diana viewed page /admin
+2025-03-01T10:35:00 INFO [u1] Alice logged out
+2025-03-01T10:36:15 WARNING [u3] Charlie attempted access without permission
+2025-03-01T10:37:30 INFO [u2] Bob accessed API /reports
